@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./animation.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: black;
+}
+
+@layer components {
+  .nav-link {
+      @apply cursor-pointer hover:text-secondary
+  }
+}
+@layer components {
+    .text-gap {
+        @apply gap-4
+    }
+}
+@layer components {
+  .countainer {
+    @apply m-4  mb-0   sm:m-10 sm:mb-0  lg:mx-20 lg:mb-0;
+  }
+}
+@layer components {
+  .padding {
+    @apply py-3;
+  }
+}
+@layer components {
+  .btn {
+    @apply bg-primary text-black py-2 px-4 rounded-sm font-headings w-fit  border border-primary hover:bg-black hover:text-primary transition-colors ease-linear duration-300;
+  }
+}
