@@ -66,7 +66,7 @@
         class="countainer grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-6"
       >
         <div class="flex justify-center">
-          <img src="./assets/images/Logos/JP Morgan.svg" alt="" />
+          <img src="./assets/images/Logos/morgan.svg" alt="" />
         </div>
         <div class="flex justify-center">
           <img src="./assets/images/Logos/Samsung.svg" alt="" />
