@@ -8,11 +8,20 @@
 
         <div class="hidden sm:flex items-center gap-10 md:gap-44">
           <ul class="flex gap-6">
-            <li class="nav-link">Article</li>
-            <li class="nav-link">Chats</li>
-            <li class="nav-link">Awards</li>
+            <a href="#Article">
+              <li class="nav-link">Article</li>
+            </a>
+            <a href="#Chats">
+              <li class="nav-link">Chats</li>
+            </a>
+            <a href="#Awards">
+              <li class="nav-link">Awards</li>
+            </a>
           </ul>
-          <button class="btn">Get in touch</button>
+          <a href="#GetInTouch">
+            <button class="btn">Get in touch</button>
+          </a>
+         
         </div>
 
         <div class="sm:hidden">
@@ -31,11 +40,21 @@
           class="bar w-full h-0 overflow-hidden border-y-2 border-t-primary border-y-primary"
         >
           <ul class="flex flex-col gap-2 mt-1">
-            <li @click="closeMenu()" class="nav-link">Article</li>
-            <li @click="closeMenu()" class="nav-link">Chats</li>
-            <li @click="closeMenu()" class="nav-link">Awards</li>
+            <a href="#Article">
+              <li @click="closeMenu()" class="nav-link">Article</li>
+            </a>
+            <a href="#Chats">
+              <li @click="closeMenu()" class="nav-link">Chats</li>
+            </a>
+            <a href="#Awards">
+              <li @click="closeMenu()" class="nav-link">Awards</li>
+            </a>
+           
           </ul>
-          <button @click="closeMenu()" class="btn my-2">Get in touch</button>
+          <a href="#GetInTouch">
+            <button @click="closeMenu()" class="btn my-2">Get in touch</button>
+          </a>
+          
         </div>
       </div>
     </header>
@@ -61,7 +80,7 @@
     </div>
 
     <!-- part 2 -->
-    <div class="padding">
+    <div class="padding" id="Awards">
       <div
         class="countainer grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-6"
       >
@@ -87,7 +106,7 @@
     </div>
 
     <!-- part 3 -->
-    <div class="padding">
+    <div class="padding" id="Article">
       <div class="countainer grid grid-cols-1 gap-8 sm:grid-cols-2">
         <div class="flex flex-col text-gap">
           <div class="rounded-md overflow-hidden">
@@ -125,7 +144,7 @@
     </div>
 
     <!-- part 4 -->
-    <div class="bg-tertiary padding">
+    <div class="bg-tertiary padding" id="Chats">
       <div class="countainer grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div class="flex flex-col text-gap">
           <h3 class="font-headings text-2xl sm:text-3xl">
@@ -168,7 +187,7 @@
     </div>
 
     <!-- part 5  -->
-    <div class="padding">
+    <div class="padding" id="GetInTouch">
       <div class="countainer flex flex-col text-gap">
         <h3 class="font-headings text-2xl sm:text-3xl">
           Interested in working with me?

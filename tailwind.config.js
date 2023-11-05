@@ -11,10 +11,6 @@ module.exports = {
         primary: "#FBE850",
         secondary: "#848484",
         tertiary: "#2e3038",
-        // primary: {
-        //   500: "#FBE850;",
-        //   800: "#FF1313;",
-        // },
       },
     },
   },
